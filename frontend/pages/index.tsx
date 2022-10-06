@@ -1,11 +1,12 @@
+import { Box } from '@mui/material'
 import type { NextPage } from 'next'
-import Cabecalho from '../src/components/Cabecalho/Cabecalho'
+import Lista from '../src/components/Lista/Lista'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <Cabecalho />      
-    </div>
+    <Box sx={{ backgroundColor: 'secondary.main' }}>
+      <Lista></Lista>
+    </Box>
   )
 }
 
