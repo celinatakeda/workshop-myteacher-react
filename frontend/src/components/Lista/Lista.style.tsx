@@ -14,7 +14,11 @@ export const ListaStyled = styled('ul') `
     grid-template-columns: 1fr;
     gap: ${({theme}) => theme.spacing(9)};
   };
+`;
 
+export const ListaVazia = styled('h2') `
+  text-align: center;
+  padding: ${({theme}) => theme.spacing(20, 0)};
 `;
 
 export const ItemLista = styled('li') `
@@ -26,7 +30,7 @@ export const Foto = styled('img') `
   width: 100%;
 `;
 
-export const Informaoes = styled('div') `
+export const Informacoes = styled('div') `
   
 `;
 
