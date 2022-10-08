@@ -32,9 +32,13 @@ python -m venv .venv
 
 ## Checklist do Desenvolvimento
 
-- [ ]  Configurar idioma e timezone da aplicação
-- [ ]  Criar e configurar a app `teacher`
-- [ ]  Criar o `model` de `Professor`
+- Configurar idioma e timezone da aplicação
+
+- Criar e configurar a app `teacher`
+        `python .\manage.py startapp teacher`
+
+- Criar o `model` de `Professor`
+
 - [ ]  Criar o `serializer` de `Professor`
 - [ ]  Criar a `view` de `Professor`
 - [ ]  Configurar as `urls` do projeto
@@ -49,6 +53,15 @@ python -m venv .venv
   `pip install djangorestframework`
 
 - Add 'rest_framework' to your INSTALLED_APPS setting.
+
+- Criar migrations => para colocar o models no formato de tabela
+
+  `python .\manage.py makemigrations`
+
+- Executar o migration
+
+  `python .\manage.py migrate`
+
    
 
 ## Links
