@@ -30,6 +30,45 @@ python -m venv .venv
     
     `python manage.py runserver`
 
+## Checklist do Desenvolvimento
+
+- [ ]  Configurar idioma e timezone da aplicação
+- [ ]  Criar e configurar a app `teacher`
+- [ ]  Criar o `model` de `Professor`
+- [ ]  Criar o `serializer` de `Professor`
+- [ ]  Criar a `view` de `Professor`
+- [ ]  Configurar as `urls` do projeto
+- [ ]  Criar o `model` de `Aula`
+- [ ]  Criar o `serializer` de cadastro de `Aula`
+- [ ]  Criar a `view` de cadastro de `Aula`
+- [ ]  Criar a validação customizada no `serializer` de cadastro de `Aula`
+- [ ]  Configurar o CORS
+
+- Instalar o Django REST framework
+
+  `pip install djangorestframework`
+
+- Add 'rest_framework' to your INSTALLED_APPS setting.
+   
+
+## Links
+
+[The web framework for perfectionists with deadlines | Django (djangoproject.com)](https://www.djangoproject.com/)
+
+[Django · PyPI](https://pypi.org/project/Django/)
+
+[List of tz database time zones - Wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+
+[Entendendo o MTV do Django | Blog TreinaWeb](https://www.treinaweb.com.br/blog/entendendo-o-mtv-do-django)
+
+[O que é JSON? | Blog TreinaWeb](https://www.treinaweb.com.br/blog/o-que-e-json)
+
+[Home - Django REST framework (django-rest-framework.org)](https://www.django-rest-framework.org/)
+
+[O que é CORS e como resolver os principias erros | Blog TreinaWeb](https://www.treinaweb.com.br/blog/o-que-e-cors-e-como-resolver-os-principais-erros)
+
+[django-cors-headers · PyPI](https://pypi.org/project/django-cors-headers/)
+
 ## ## Problemas frequentes
 
 - Caso a virtualenv não esteja ativada no Windows, digite os seguintes comandos no terminal
