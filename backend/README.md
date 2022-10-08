@@ -35,6 +35,7 @@ python -m venv .venv
 - Configurar idioma e timezone da aplicação
 
 - Criar e configurar a app `teacher`
+
         `python .\manage.py startapp teacher`
 
 - Criar o `model` de `Professor`
