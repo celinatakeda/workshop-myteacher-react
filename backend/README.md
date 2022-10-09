@@ -68,6 +68,8 @@ python -m venv .venv
 
 - Criar migrations => para colocar o models no formato de tabela
 
+  Django le nossos arquivos de modelo e então crie os arquivos de migração do banco de dados
+
   `python .\manage.py makemigrations`
 
 - Executar o migration
