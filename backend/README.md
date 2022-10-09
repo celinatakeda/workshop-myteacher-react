@@ -63,7 +63,9 @@ python -m venv .venv
 
   `python .\manage.py migrate`
 
-   
+  - Cadastrar dados no banco de dados
+
+    `python .\manage.py shell`   
 
 ## Links
 
