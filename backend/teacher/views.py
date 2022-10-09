@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.views import Response
 from rest_framework.status import HTTP_200_OK, HTTP_201_CREATED, HTTP_400_BAD_REQUEST
 
-from teacher.models import Professor
+from teacher.models import Professor, Aula
 from teacher.serializers import (
   ProfessorSerializer, 
   CadastrarAulaSerializer, 
