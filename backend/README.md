@@ -36,18 +36,29 @@ python -m venv .venv
 
 - Criar e configurar a app `teacher`
 
-        `python .\manage.py startapp teacher`
+       `python .\manage.py startapp teacher`
 
 - Criar o `model` de `Professor`
 
-- [ ]  Criar o `serializer` de `Professor`
-- [ ]  Criar a `view` de `Professor`
-- [ ]  Configurar as `urls` do projeto
-- [ ]  Criar o `model` de `Aula`
-- [ ]  Criar o `serializer` de cadastro de `Aula`
-- [ ]  Criar a `view` de cadastro de `Aula`
-- [ ]  Criar a validação customizada no `serializer` de cadastro de `Aula`
-- [ ]  Configurar o CORS
+- Criar o `serializer` de `Professor`
+
+- Criar a `view` de `Professor`
+
+- Configurar as `urls` do projeto
+
+- Criar o `model` de `Aula`
+
+- Criar o `serializer` de cadastro de `Aula`
+
+- Criar a `view` de cadastro de `Aula`
+
+- Criar a validação customizada no `serializer` de cadastro de `Aula`
+
+- Configurar o CORS
+
+  Instalando a biblioteca do cors do django
+
+    `pip install django-cors-headers`
 
 - Instalar o Django REST framework
 
