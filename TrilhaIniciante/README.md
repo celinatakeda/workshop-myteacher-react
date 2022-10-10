@@ -1,7 +1,7 @@
-# HTML, CSS e JS
-Projeto da trilha base do Workshop da TreinaWeb.
+# Trilha base do Workshop da TreinaWeb
+Neste projeto desenvolvemos um site onde é oferecido compras de aulas de professores.
 
-## ## Links Úteis
+## Links Úteis
 
 [O que é e como começar com HTML e CSS?](https://www.treinaweb.com.br/blog/o-que-e-e-como-comecar-com-html-e-css)
 
