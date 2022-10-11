@@ -6,6 +6,7 @@ export function useIndex() {
   const [listaProfesssores, setLisraProfessores] = useState<Professor[]>([]);
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
+  const [professorSelecionado, setProfessorSelecionado] = useState<Professor | null>(null)
 
   useEffect(() => {
     ApiService.get('/professores').then((resposta) => {
@@ -19,5 +20,7 @@ export function useIndex() {
     setNome,
     email,
     setEmail,
+    professorSelecionado, 
+    setProfessorSelecionado
   }
 }
