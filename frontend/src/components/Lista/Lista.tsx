@@ -3,15 +3,15 @@ import { Professor } from '../../@types/professor'
 import { FormatadorService } from "../../services/FormatadorService";
 import { Descricao, Foto, Informacoes, ItemLista, ListaStyled, ListaVazia, Nome, Valor } from "./Lista.style";
 
-
 interface ListaProps { 
   professores: Professor[],
   onSelect: (professor: Professor) => void
 }
 
-const Lista = (props: ListaProps) => {
+const Lista = (props: ListaProps) => { 
+  
   return (
-    <div>
+    <div>      
       { props.professores.length > 0 ? (
          <ListaStyled>
          {props.professores.map(professor => (
