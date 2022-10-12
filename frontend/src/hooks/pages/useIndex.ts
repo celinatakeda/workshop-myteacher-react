@@ -7,12 +7,17 @@ export function useIndex() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [professorSelecionado, setProfessorSelecionado] = useState<Professor | null>(null)
+  const [mensagem, setMensagem] = useState('');
 
   useEffect(() => {
     ApiService.get('/professores').then((resposta) => {
       setLisraProfessores(resposta.data);
     })
   }, []);
+
+  useEffect(() => {
+    limparFormulario();
+  }, [professorSelecionado]);
 
   function marcarAula() {
     if (professorSelecionado !== null) {
@@ -22,18 +27,23 @@ export function useIndex() {
           email
         }).then(() => {
           setProfessorSelecionado(null);
-          alert('Cadastrado com sucesso!')
+          setMensagem('Cadastrado com sucesso!')
         }).catch((error) => {
-          alert(error.response?.data.message);
+          setMensagem(error.response?.data.message);
         });
       } else {
-          alert('Preencha os dados corretamente')
+          setMensagem('Preencha os dados corretamente')
       }
     }
   }
 
   function validarDadosAula() {
     return nome.length > 0 && email.length > 0;
+  }
+
+  function limparFormulario() {
+    setNome('');
+    setEmail('');
   }
 
   return {
@@ -44,6 +54,8 @@ export function useIndex() {
     setEmail,
     professorSelecionado, 
     setProfessorSelecionado, 
-    marcarAula
+    marcarAula,
+    mensagem, 
+    setMensagem
   }
 }
