@@ -1,5 +1,5 @@
 # Trilha base do Workshop da TreinaWeb
-Neste projeto desenvolvemos um site onde é oferecido compras de aulas de professores.
+Neste projeto desenvolvemos um site de venda de aulas por hora.
 
 ## Links Úteis
 
