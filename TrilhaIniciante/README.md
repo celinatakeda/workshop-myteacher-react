@@ -1,6 +1,11 @@
 # Trilha base do Workshop da TreinaWeb
 Neste projeto desenvolvemos um site de venda de aulas por hora.
 
+## Visual do projeto
+<p>
+  <img src=".github/myteacher.png">
+</P>
+
 ## Links Úteis
 
 [O que é e como começar com HTML e CSS?](https://www.treinaweb.com.br/blog/o-que-e-e-como-comecar-com-html-e-css)
