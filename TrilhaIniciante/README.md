@@ -1,7 +1,7 @@
 # Trilha base do Workshop da TreinaWeb
 Neste projeto desenvolvemos um site de venda de aulas por hora.
 
-## Visual do projeto
+<h1 align=center> Visual do projeto</h1>
 <p>
   <img src=".github/myteacher.png">
 </P>
